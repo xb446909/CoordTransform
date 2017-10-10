@@ -9,7 +9,7 @@
 
 int main()
 {
-	CreateTransform(0, 0, 1, 0, 0, 1, 1, 1, 2, 1, 1, 2);
+	CreateTransform(0, 0, 1, 0, 0, 1, 1, 1, 3, 1, 1, 3);
 	double dbx, dby;
 	Transform(1, 1, &dbx, &dby);
 	printf_s("dbx: %lf, dby: %lf\n", dbx, dby);
